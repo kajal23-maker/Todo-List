@@ -30,7 +30,6 @@ addTodo.addEventListener('click', function(){
 
         var count = 0;
         actionEdit.addEventListener('click', function(){
-            // para.style.textDecoration = 'line-through';
             if(count == 0){
                 let checked = document.createElement('span');
                 checked.classList.add("check");
@@ -38,8 +37,6 @@ addTodo.addEventListener('click', function(){
                 para.appendChild(checked);
                 count++;
             }
-            // para.append(checked);
-            // para.appendChild(checked);
         })
 
         actionDelete.addEventListener('click', function(){
